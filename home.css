@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Testing git  */
+:root{
+    --lightWhite:rgba(255, 255, 255, 0.744);
+    --white:rgb(255,255,255);
+    --gray:rgb(61, 71, 90);
+    --lightgray:rgb(61, 71, 90, 0.7);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.headerNav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.headerNavList{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 4rem;
+    height: 6rem;
+    min-width: 60vw;
+    background-color: var(--lightgray);
+    min-height: 6rem;
+}
+
+.headerItem{
+    height: 100%;
+    padding-top: 2rem;
+}
+
+.logo{
+    padding-left: 1rem;
+}
+
+.line{
+    width: 30vw;
+    transform: scaleX(0.7);
+    z-index: 1;
+}
+
+.headerItem a{
+    text-decoration: none;
+    color: var(--lightWhite);
+    letter-spacing: .2rem;
+    font-size: 1.6rem;
+    padding-top: 3rem;
+}
+
+.headerItem:visited{
+    border-bottom: .2rem solid var(--white);
+}
+
+.headerItem:hover{
+    border-bottom: .2rem solid var(--white);
+    opacity: 0.7;
+}
+
+.num{
+    color: var(--white);
+}
+
+.num1{
+    padding-left: 5rem
+}
+
+body{
+    background-image: url(../../images/Bitmap\ Copy.png), url(../../images/Bitmap\ \(1\).png);
+    background-repeat: no-repeat, no-repeat;
+    background-size:auto;
+    background-position: left, right;
+    color: var(--white);
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    min-width: 100vw;
+    min-height: 70vh;
+    align-items: flex-end;
+}
+
+.subSection1{
+    width: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bigtext1{
+    letter-spacing: .3rem;
+    font-size: 1.3rem;
+    min-width: 45rem;
+}
+
+.bigtext2{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-size: 10rem;
+    min-width: 45rem;
+}
+
+.smalltext{
+    line-height: 2rem;
+    font-size: 1.3rem;
+    min-width: 45rem;
+}
+
+.outercircle{
+    min-width: 15rem;
+    min-height: 15rem;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    padding-top: 6.5rem;
+    color: var(--gray);
+    letter-spacing: .3rem;
+    text-align: center;
+    background-color: var(--white);
+    z-index: 1;
+    position: relative;
+}
+
+.innercircle{
+    min-width: 25rem;
+    min-height: 25rem;
+    border-radius: 50%;
+    display: none;
+    opacity: 0.6;
+    background-color: var(--gray);
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.outercircle:hover .innercircle{
+    display: inline-block;
+}
