@@ -1,0 +1,87 @@
+body{
+    background-image: url(../../images/Bitmap\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}.h1{
+    color: var(--lightwhite);
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+    padding-left: 13rem;
+    padding-top: 4.3rem;
+    text-transform: uppercase;
+}
+
+.num2{
+    color: var(--lightgray);
+    padding-right: 2rem;
+    font-size: 1.6rem;
+}
+
+.mainSection{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    min-width: 100vw;
+    min-height: 50vh;
+}
+
+.sectionText{
+    width: 37%;
+    height: 100%;
+}
+
+.commander{
+    font-size: 2rem;
+    color: var(--lightgray);
+    text-transform: uppercase;
+    padding-top: 8.5rem;
+}
+
+.douglas{
+    color: var(--lightwhite);
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding-top: 1.2rem;
+    padding-bottom: 2.4rem;
+}
+
+.writeUp{
+    color: var(--lightwhite);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-bottom: 6rem;
+}
+
+.buttonContainer{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.liButton{
+    list-style: none;
+    text-decoration: none;
+}
+
+a .smallButton:hover{
+    background-color: var(--lightwhite);;
+}
+
+.smallButton{
+    width: 1rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: var(--lightgray);
+}
+
+.sectionImg{
+    margin-top: -4rem;
+    width: 37%;
+    height: 100%;
+}
+
+.sectionImg img{
+    width: 35rem;
+    height: 41rem;
+}
