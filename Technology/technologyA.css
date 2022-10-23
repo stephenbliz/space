@@ -1,0 +1,95 @@
+body{
+    background-image: url(../Images/technology.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
+}
+.title{
+    font-size: var(-h1font);
+    color: var(--lightwhite);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+    margin-top: 4rem;
+    margin-left: 10%;
+}
+.title span{
+    color: var(--lightgray);
+    padding-right: 1rem;
+    font-size: 1.6rem;
+}
+.container{
+    margin-left: 10%;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper1{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 5%;
+    height: 65%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.big-botton{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.133);
+    color: var(--lightwhite);
+    border: .1rem solid var(--lightgray);
+    text-align: center;
+    
+}
+.big-botton a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    height: fit-content;
+    display: block;
+    margin-top: 1.5rem;
+    color: var(--lightwhite);
+}
+.big-botton:hover{
+    background-color:var(--lightwhite);
+}
+.big-botton a:hover{
+    color: var(--lightgray);
+}
+.wrapper2{
+    width: 30%;
+    height: 65%;
+    color: var(--lightwhite);
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+}
+.wrapper2-p{
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.wrapper2-h2{
+    font-size: var( --namefont);
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+.wrapper2-text{
+    font-size: var(--parafont);
+    line-height: var(--lineheight);
+    margin-top: 3rem;
+}
+.wrapper3{
+    width: 45%;
+    height: 100%;
+}
+.wrapper3-img{
+    width: 40rem;
+    height: 35rem;
+}

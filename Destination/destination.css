@@ -3,13 +3,16 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
 }
 
 .h1{
     color: var(--lightwhite);
-    font-size: 1.4rem;
+    font-size: var(--h1font);
     letter-spacing: 0.3rem;
     padding-left: 13rem;
+    font-weight: 400;
     padding-top: 4rem;
     text-transform: uppercase;
 }
@@ -25,24 +28,24 @@ body{
     justify-content: center;
     gap: 12rem;
     min-width: 100vw;
-    min-height: 62vh;
+    /* min-height: 62vh; */
 }
 
 .moonI{
     margin-top: 5rem;
     width: 30rem;
-    height: 30rem;
+    /* height: 50%; */
 }
 
 .moonI img{
     width: 100%;
-    height: 100%;
+    /* height: 50%; */
 }
 
 .textContainer{
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     width: 33rem;
-    height: 31rem;
+    height: 30rem;
 }
 
 .miniList{
@@ -69,15 +72,16 @@ body{
 .moonT{
     text-transform: uppercase;
     padding-top: 1.5rem;
-    font-size: 9rem;
+    font-size: var(--planetfont);
+    font-weight: 400;
     color: var(--lightwhite);
 }
 
 .texts{
-    font-size: 1.4rem;
+    font-size: var(--parafont);
     padding-top: 1rem;
     color: var(--lightwhite);
-    line-height: 2rem;
+    line-height: var(--lineheight);
 }
 
 .linne img{

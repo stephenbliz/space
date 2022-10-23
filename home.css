@@ -9,6 +9,10 @@
     --white:rgb(255,255,255);
     --gray:rgb(61, 71, 90);
     --lightgray:rgb(61, 71, 90, 0.7);
+    --h1font: 1.7rem;
+    --lineheight: 2.2rem;
+    --parafont: 1.2rem;
+    --headerfont: 1.3rem;
 }
 
 html{
@@ -52,9 +56,10 @@ html{
 
 .headerItem a{
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--lightWhite);
     letter-spacing: .2rem;
-    font-size: 1.6rem;
+    font-size: var(--headerfont);
     padding-top: 3rem;
 }
 
@@ -81,6 +86,8 @@ body{
     background-size:auto;
     background-position: left, right;
     color: var(--white);
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
 }
 .section{
     display: flex;
@@ -106,12 +113,13 @@ body{
     padding-top: 1rem;
     padding-bottom: 3rem;
     font-size: 10rem;
+    font-weight: 400;
     min-width: 45rem;
 }
 
 .smalltext{
-    line-height: 2rem;
-    font-size: 1.3rem;
+    line-height: var(--lineheight);
+    font-size: var(--parafont);
     min-width: 45rem;
 }
 
@@ -120,6 +128,7 @@ body{
     min-height: 15rem;
     border-radius: 50%;
     font-size: 1.6rem;
+    font-weight:500;
     padding-top: 6.5rem;
     color: var(--gray);
     letter-spacing: .3rem;

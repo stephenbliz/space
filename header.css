@@ -9,6 +9,12 @@
     --white:rgb(255,255,255);
     --gray:rgb(61, 71, 90);
     --lightgray:rgb(61, 71, 90, 0.7);
+    --planetfont: 9rem;
+    --h1font: 1.6rem;
+    --lineheight: 2.2rem;
+    --parafont: 1.2rem;
+    --namefont: 3.5rem;
+    --headerfont: 1.3rem;
 }
 
 html{
@@ -52,9 +58,10 @@ html{
 
 .headerItem a{
     text-decoration: none;
+    text-transform: uppercase;
     color: var(--lightwhite);
     letter-spacing: .2rem;
-    font-size: 1.6rem;
+    font-size: var(--headerfont);
     padding-top: 3rem;
 }
 

@@ -3,11 +3,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
 
 }.h1{
     color: var(--lightwhite);
-    font-size: 1.4rem;
+    font-size: var(--h1font);
     letter-spacing: 0.3rem;
+    font-weight: 400;
     padding-left: 13rem;
     padding-top: 4.3rem;
     text-transform: uppercase;
@@ -16,20 +19,21 @@ body{
 .num2{
     color: var(--lightgray);
     padding-right: 2rem;
-    font-size: 1.6rem;
+    font-size: var(--h1font);
 }
 
 .mainSection{
     display: flex;
-    justify-content: center;
-    gap: 3rem;
-    min-width: 100vw;
+    justify-content: space-evenly;
+    /* gap: 10%; */
+    width: 80vw;
     min-height: 50vh;
 }
 
 .sectionText{
-    width: 37%;
+    width: 60%;
     height: 100%;
+    margin-left: 13rem;
 }
 
 .commander{
@@ -41,15 +45,17 @@ body{
 
 .douglas{
     color: var(--lightwhite);
-    font-size: 3.5rem;
+    font-size: var(--namefont);
+    font-weight: 400;
     text-transform: uppercase;
+    letter-spacing: 0.3rem;
     padding-top: 1.2rem;
     padding-bottom: 2.4rem;
 }
 
 .writeUp{
     color: var(--lightwhite);
-    font-size: 1.2rem;
+    font-size: var(--parafont);
     line-height: 2rem;
     padding-bottom: 6rem;
 }
@@ -77,11 +83,12 @@ a .smallButton:hover{
 
 .sectionImg{
     margin-top: -4rem;
-    width: 37%;
+    width: 35%;
     height: 100%;
 }
 
 .sectionImg img{
-    width: 35rem;
-    height: 41rem;
+    width: 33rem;
+    height: 39.8rem;
+    margin-top: 3rem;
 }
