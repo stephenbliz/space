@@ -62,6 +62,12 @@ html{
     font-size: var(--headerfont);
     padding-top: 3rem;
 }
+.close{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
 
 .headerItem:visited{
     border-bottom: .2rem solid var(--white);
@@ -153,4 +159,229 @@ body{
 
 .outercircle:hover .innercircle{
     display: inline-block;
+}
+
+/* Media query for mobile phones */
+
+@media screen and (max-width:480px) {
+    /* header */
+    .headerNav{
+        position: relative;
+        display: flex;
+        width: 100vw;   
+        justify-content:space-between;
+        /* overflow: hidden;        */
+    }
+        
+    .headerNavList{
+        position: absolute;
+        display: none;
+        flex-direction:column;
+        height: 110vh;
+        width: 70vw;
+        top: -3vh;
+        right: -4vw;
+        transition: all 0.45s ease-in-out;
+        background-color: rgba(61, 71, 90, 0.93);
+        z-index: 99;
+    } 
+
+    .close{
+        display: block;
+        position: absolute;
+        top: 4vh;
+        right: 11vw;
+        font-size: 5rem;
+    }
+    .line{
+        display: none;
+    }
+    .logo{
+        width: 5rem;
+        padding: 0;
+    }
+    .logo img{
+        width: 5rem;
+    }
+    .menu-icon{
+        display: block;
+        width: 3rem;
+    }
+    .menu-icon .icon{
+        width: 3rem;
+    }
+
+    .headerItem{
+        height: 2vh;
+        width: 50vw;
+        padding-top: 2rem;
+}
+
+.headerItem a{
+    color: white;
+    letter-spacing: .2rem;
+    font-size: var(--h1font);
+    padding-top: 3rem;
+}    
+
+.num1{
+    padding-left: 0;
+    margin-top: 15rem;
+}
+
+/* section */
+
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    align-items: center;
+}    
+.subSection1{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+}
+
+.bigtext1{
+    text-align: center;
+    letter-spacing: .3rem;
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.bigtext2{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-size: 10rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.smalltext{
+    text-align: center;
+    line-height: var(--lineheight);
+    font-size: 1.5rem;
+    width: 100%;
+}
+    body{
+    background-image: url(../../images/mhoback.jpg);
+    background-repeat: repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.outercircle{
+    width: 20rem;
+    height: 20rem;
+    font-size: 2rem;
+    padding-top: 9rem;
+}
+
+.innercircle{
+    min-width: 30rem;
+    min-height: 30rem;
+}
+
+    
+    
+    
+            
+}
+
+/* Media query for tablet phones */
+
+@media screen and (max-width:760px) {
+    body{
+        background-image: url(../../images/mhoback.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    
+    .line{
+        display: none;
+    }
+    .headerNav{
+        gap: 0;
+        justify-content: space-between;  
+    }
+    .headerNavList{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        height: 6rem;
+        width: 60vw;
+        margin-top: -2.9rem;
+        background-color: rgb(61, 71, 90, 0.3);
+    }
+    .num{
+        display: none;
+    }
+    .num1{
+        padding-left: 2rem;
+    }
+    .num4{
+        padding-right: 3rem;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+    }    
+    .subSection1{
+        width: 80vw;
+    /*     background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-content:center;
+    }
+    
+    .bigtext1{
+        text-align: center;
+        letter-spacing: .3rem;
+        font-size: 2rem;
+        width: 100%;
+    }
+    
+    .bigtext2{
+        text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        font-size: 15rem;
+        font-weight: 400;
+        width: 100%;
+    }
+    
+    .smalltext{
+        text-align: center;
+        line-height: 1.5;
+        font-size: 2.2rem;
+        width: 100%;
+    }
+    
+    .outercircle{
+        width: 25rem;
+        height: 25rem;
+        font-size: 3rem;
+        padding-top: 11rem;
+    }
+    
+    .innercircle{
+        width: 35rem;
+        height: 35rem;
+    }
+
 }

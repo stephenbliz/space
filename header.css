@@ -74,11 +74,118 @@ html{
     border-bottom: .2rem solid var(--white);
 }
 
-
+.menu-icon{
+    display: none;
+}
 .num{
     color: var(--white);
 }
 
 .num1{
-    padding-left: 5rem
+    padding-left: 5rem;
+}
+/* Media query for mobile phones */
+ @media screen and (max-width:480px) {
+    
+     .headerNav{
+        position: relative;
+        display: flex;
+        width: 100vw;   
+        justify-content:space-between;
+        /* overflow: hidden;        */
+    }
+        
+    .headerNavList{
+        position: absolute;
+        display: none;
+        flex-direction:column;
+        height: 110vh;
+        width: 70vw;
+        top: -3vh;
+        right: -4vw;
+        transition: all 0.45s ease-in-out;
+        background-color: rgba(61, 71, 90, 0.93);
+        z-index: 99;
+    } 
+
+    .close{
+        display: block;
+        position: absolute;
+        top: 4vh;
+        right: 11vw;
+        font-size: 5rem;
+        color: white;
+    }
+    .line{
+        display: none;
+    }
+    .logo{
+        width: 5rem;
+        padding: 0;
+    }
+    .logo img{
+        width: 5rem;
+    }
+    .menu-icon{
+        display: block;
+        width: 3rem;
+    }
+    .menu-icon .icon{
+        width: 3rem;
+    }
+
+    .headerItem{
+        height: 2vh;
+        width: 50vw;
+        padding-top: 2rem;
+    }
+
+    .headerItem a{
+        color: white;
+        letter-spacing: .2rem;
+        font-size: var(--h1font);
+        padding-top: 3rem;
+    }    
+
+    .num1{
+        padding-left: 0;
+        margin-top: 15rem;
+    }
+    
+    
+    
+            
+} 
+
+/* Media query for tablet phones */
+
+@media screen and (max-width:760px) {
+    
+    .line{
+        display: none;
+    }
+    .headerNav{
+        gap: 0;
+        justify-content: space-between;  
+    }
+    .headerNavList{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+        height: 6rem;
+        width: 60vw;
+        margin-top: -2.9rem;
+        background-color: rgb(61, 71, 90, 0.3);
+    }
+    .num{
+        display: none;
+    }
+    .num1{
+        padding-left: 2rem;
+    }
+    .num4{
+        padding-right: 3rem;
+    }
+    
 }
