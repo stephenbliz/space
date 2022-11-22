@@ -1,5 +1,5 @@
 body{
-    background-image: url(../../images/Bitmap\ \(3\).png);
+    background-image: url(../Images/Bitmap\ \(3\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -100,7 +100,7 @@ a .smallButton:hover{
 @media screen and (max-width:480px){
 
     body{
-        background-image: url(../../images/mcreback.jpg);
+        background-image: url(../Images/mcreback.jpg);
         background-repeat: repeat;
     }
     .h1{
@@ -160,7 +160,7 @@ a .smallButton:hover{
     @media screen and (min-device-width:480px)
     and (max-device-width:786px){
         body{
-                background-image: url(../../images/mcreback.jpg);
+                background-image: url(../Images/mcreback.jpg);
                 background-repeat: repeat;
                 width: 100vw;
         height: 100vh;

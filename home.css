@@ -87,7 +87,7 @@ html{
 }
 
 body{
-    background-image: url(../../images/Bitmap\ Copy.png), url(../../images/Bitmap\ \(1\).png);
+    background-image: url(../Images/Bitmap\ Copy.png), url(../Images/Bitmap\ \(1\).png);
     background-repeat: no-repeat, no-repeat;
     background-size:auto;
     background-position: left, right;
@@ -267,7 +267,7 @@ body{
     width: 100%;
 }
     body{
-    background-image: url(../../images/mhoback.jpg);
+    background-image: url(../Images/mhoback.jpg);
     background-repeat: repeat;
     background-size:cover;
     background-position: center;
@@ -295,7 +295,7 @@ body{
 @media screen and (min-device-width:480px)
 and (max-device-width:786px) {
     body{
-        background-image: url(../../images/mhoback.jpg);
+        background-image: url(../Images/mhoback.jpg);
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;

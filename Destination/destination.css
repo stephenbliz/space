@@ -1,5 +1,5 @@
 body{
-    background-image: url(../../images/Bitmap.jpg);
+    background-image: url(../Images/Bitmap.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -110,7 +110,7 @@ td{
 @media screen and (max-width:480px) {
 
     body{
-        background-image: url(../../images/mdesback.png);
+        background-image: url(../Images/mdesback.png);
         background-repeat: repeat;
         background-position: center;
         background-size: cover;
@@ -175,7 +175,7 @@ td{
 and (max-device-width:786px) {
 
     body{
-        background-image: url(../../images/mdesback.png);
+        background-image: url(../Images/mdesback.png);
         background-repeat: repeat;
         background-position: center;
         background-size: cover;
