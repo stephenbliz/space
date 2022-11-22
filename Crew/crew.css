@@ -31,7 +31,7 @@ body{
 }
 
 .sectionText{
-    width: 60%;
+    width: 40%;
     height: 100%;
     margin-left: 13rem;
 }
@@ -118,7 +118,7 @@ a .smallButton:hover{
     }
 
     .sectionText{
-        width: 100%;
+        width: 90%;
         height: 100%;
         margin-left: 0;
         text-align: center;
@@ -129,7 +129,7 @@ a .smallButton:hover{
         margin-top: 4rem;
     }
     .writeUp{
-        font-size: 1.56rem;
+        font-size: 1.6rem;
         line-height: 2rem;
         padding-bottom: 6rem;
         width: 100%;
@@ -148,7 +148,7 @@ a .smallButton:hover{
         background-color: var(--lightgray);
     }
     .sectionImg{
-        margin-top: 4rem;
+        margin-top: 1rem;
         width: 90%;
         height: 100%;
         border-bottom: 0.1rem solid rgba(255, 255, 255, 0.744);

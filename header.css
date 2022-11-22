@@ -97,7 +97,7 @@ html{
     }
         
     .headerNavList{
-        position: absolute;
+        position: fixed;
         display: none;
         flex-direction:column;
         height: 110vh;
@@ -108,6 +108,13 @@ html{
         background-color: rgba(61, 71, 90, 0.93);
         z-index: 99;
     } 
+    .headerItem:hover{
+        border-bottom: none;
+    }
+    
+    .headerItem:active{
+        border-bottom: none;
+    }
 
     .close{
         display: block;
@@ -130,6 +137,7 @@ html{
     .menu-icon{
         display: block;
         width: 3rem;
+        margin-right: 5%;
     }
     .menu-icon .icon{
         width: 3rem;
