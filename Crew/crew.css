@@ -74,7 +74,7 @@ body{
 }
 
 a .smallButton:hover{
-    background-color: var(--lightwhite);;
+    background-color: var(--lightwhite);
 }
 
 .smallButton{
@@ -157,7 +157,8 @@ a .smallButton:hover{
         
     }
 
-    @media screen and (max-width:760px){
+    @media screen and (min-device-width:480px)
+    and (max-device-width:786px){
         body{
                 background-image: url(../../images/mcreback.jpg);
                 background-repeat: repeat;

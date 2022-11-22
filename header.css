@@ -159,7 +159,8 @@ html{
 
 /* Media query for tablet phones */
 
-@media screen and (max-width:760px) {
+@media screen and (min-device-width:480px)
+and (max-device-width:786px) {
     
     .line{
         display: none;
@@ -174,7 +175,6 @@ html{
         align-items: center;
         justify-content: space-between;
         height: 6rem;
-        width: 60vw;
         margin-top: -2.9rem;
         background-color: rgb(61, 71, 90, 0.3);
     }

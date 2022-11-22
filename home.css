@@ -170,7 +170,6 @@ body{
         display: flex;
         width: 100vw;   
         justify-content:space-between;
-        /* overflow: hidden;        */
     }
         
     .headerNavList{
@@ -180,7 +179,7 @@ body{
         height: 110vh;
         width: 70vw;
         top: -3vh;
-        right: -4vw;
+        right: -8vw;
         transition: all 0.45s ease-in-out;
         background-color: rgba(61, 71, 90, 0.93);
         z-index: 99;
@@ -288,16 +287,13 @@ body{
     min-width: 30rem;
     min-height: 30rem;
 }
-
-    
-    
-    
             
 }
 
 /* Media query for tablet phones */
 
-@media screen and (max-width:760px) {
+@media screen and (min-device-width:480px)
+and (max-device-width:786px) {
     body{
         background-image: url(../../images/mhoback.jpg);
         background-repeat: no-repeat;
@@ -321,7 +317,6 @@ body{
         align-items: center;
         justify-content: space-between;
         height: 6rem;
-        width: 60vw;
         margin-top: -2.9rem;
         background-color: rgb(61, 71, 90, 0.3);
     }
@@ -343,7 +338,6 @@ body{
     }    
     .subSection1{
         width: 80vw;
-    /*     background-color: red; */
         display: flex;
         flex-direction: column;
         align-content:center;
