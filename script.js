@@ -1,6 +1,8 @@
 const close = document.querySelector('.close');
 const mobileMenu = document.querySelector('.menu-icon');
 const menu = document.querySelector('.headerNavList');
+const logo = document.querySelector('.logo');
+// console.log(logo);
 
 mobileMenu.addEventListener('click', () => {
     menu.style.display="flex";
@@ -12,3 +14,6 @@ close.addEventListener('click', () => {
     mobileMenu.style.visibility="visible";
 });
 
+logo.addEventListener('click', () => {
+    window.location='../index.html';
+});
